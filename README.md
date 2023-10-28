@@ -5,7 +5,7 @@ vladimirk1211 Infra repository
 
 Data for connect:
 ```
-estapp_IP = 51.250.66.247
+testapp_IP = 51.250.66.247
 testapp_port = 9292
 ```
 
