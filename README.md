@@ -1,6 +1,24 @@
 # vladimirk1211_infra
 vladimirk1211 Infra repository
 
+# Homework 5
+
+- Перенес наработки с предыдущего ДЗ в директорию config-scripts
+- Установил Packer
+- Создал сервисный аккаунт в yc
+- Делегировал права сервисному аккаунту для Packer
+- Создал IAM key и экспортировал его в файл.
+- Создал файл шаблон packer ubuntu16.json
+- Добавил скрипты install_mongodb.sh и install_ruby.sh в провиженеры
+- Создал скрипты install_mongodb.sh и install_ruby.sh
+- Провел проверку на ошибки шаблона packer
+- Произвел сборку образа из шаблона
+- Создал VM на основе образа
+- Устновил reddit на созданной VM
+- Параметризировал шаблон с помощью файла variables.json и создал альтернативный файл variables.json.examples
+  файл variables.json добавил в .gitignore
+- Пересоздал VM с помощью параметризированного шаблона
+
 # Homework 4
 
 Data for connect:
