@@ -17,7 +17,8 @@ vladimirk1211 Infra repository
 - Устновил reddit на созданной VM
 - Параметризировал шаблон с помощью файла variables.json и создал альтернативный файл variables.json.examples
   файл variables.json добавил в .gitignore
-- Пересоздал VM с помощью параметризированного шаблона
+- Пересоздал VM с помощью параметризированного шаблона командой:
+  packer build -var-file="./variables.json" ./ubuntu16.json
 
 # Homework 4
 
