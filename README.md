@@ -1,6 +1,23 @@
 # vladimirk1211_infra
 vladimirk1211 Infra repository
 
+# Homework 6
+
+- Пересобрал образ из прерыдущего ДЗ
+- Установил terraform
+- Добавил файлы в .gitignore
+- Создал сервисный аккаунт
+- Установил плагин на terraform для провайдера YC
+- Сконфигурировал файл main.tf и создал VM
+- Сгенерировал ключи для пользователя ubuntu
+- Пересоздал VM с метаданными пользователя ubuntu
+- Сконфигурировал файл outputs.tf
+- Добавил провиженеры, файл puma.service, файл deploy.sh, раздел connection и пересоздал ресурс VM
+- Создал файл variables.tf, параметризировал main.tf, создал файл terraform.tfvars и перксоздал VM
+- Определил переменную private_key_path, переменную для зоны оставил по умолчанию.
+- Отформатировал все конфигурационные файлы используя команду terraform fmt, создал файл terraform.tfvars.example
+- Пересоздал VM
+
 # Homework 5
 
 - Перенес наработки с предыдущего ДЗ в директорию config-scripts
