@@ -25,3 +25,11 @@ variable "service_account_key_file" {
 variable "private_key_path" {
   description = "Path to the private key used for ssh access"
 }
+variable "app_disk_image" {
+  description = "Disk image for reddit app"
+  default     = "reddit-base-1699281544"
+}
+variable "db_disk_image" {
+  description = "Disk image for reddit db"
+  default     = "reddit-base-1699281242"
+}
