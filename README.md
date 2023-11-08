@@ -1,6 +1,30 @@
 # vladimirk1211_infra
 vladimirk1211 Infra repository
 
+# Homework 7
+ - Добавил с main.tf ресурсы yandex_vpc_network и yandex_vpc_subnet, затем созда ресурсы и удалил их
+ - Добавил ресурс network_interface, затем созда ресурсы и удалил их
+ - Создал два новых шаблона db.json и app.jsonъ
+ - Создал два новых образа VM
+ - Вынес конфигурацию их main.tf в app.tf, объявил переменную app_disk_image
+ - Вынес конфигурацию их main.tf в db.tf, объявил переменную db_disk_image
+ - Создал vpc.tf вынес в него ресурсы yandex_vpc_network и yandex_vpc_subnet
+ - Оставил в main.tf только описание провайдера
+ - Добавил переменные в outputs и применил новую конфигурацию
+ - Создал директорию module, в ней директорию db и app
+ - В директориях db и app сконфигурировал файлы main.tf, variables.tf, outputs.tf
+ - Удвлил файлы db.tf, app.tf, vpc.tf в директории terraform
+ - В файл main.tf добавил вызов модулей
+ - Использовал команду terraform get
+ - Отредактировал файл outputs.tf и вызвал terraform plan для проверки
+ - В директории terrafrom создал две директории: stage и prod
+ - В директории stage и prod скопировал файлы main.tf, variables.tf, outputs.tf, terraform.tfvars, key.json
+ - Поменял пути к модулям в main.tf
+ - В директории stage и prod выполнил: terraform get, terraform init, terraform plan, terraform apply, terraform destroy
+ - Удалил из папки terraform файлы main.tf, outputs.tf, terraform.tfvars, variables.tf
+ - Параметризировал конфигурацию модулей
+ - Отфоровал конфигурационные файлы, используя команду terraform fmt
+
 # Homework 6
 
 - Пересобрал образ из прерыдущего ДЗ
