@@ -1,6 +1,23 @@
 # vladimirk1211_infra
 vladimirk1211 Infra repository
 
+# Homework 10
+- В директории ansible создал директорию roles и выполнил команды:
+  ansible-galaxy init app
+  ansible-galaxy init db
+- Сконфигурировал ansible/roles/db
+- Сконфигурировал ansible/roles/app
+- Установил окружение stage и проверил роли
+- Настроил окружения для stage и для prod
+- Организовал плейбуки, лишнее убрал в папку Old
+- Установил окружение stage и проверил работу окружений
+- Установил community роль jdauphant.nginx
+- Добавил вызов роли jdauphant.nginx в плейбук app.yml
+- Применил плейбук site.yml для окружения stage, приложение доступно по 80 порту
+- Создал vault.key и credentials.yml для двух окружений, зашифровал их
+- Добавил плейбук для создания пользователей в site.yml
+- Настроил окружения для stage, проверил, пользователи появились
+
 # Homework 9
  - Создал файл reddit_app.yml в директории ansible
  - Внес в .gitignore *.retry
