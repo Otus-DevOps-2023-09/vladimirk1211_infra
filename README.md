@@ -1,6 +1,28 @@
 # vladimirk1211_infra
 vladimirk1211 Infra repository
 
+# Homework 15
+
+- Создал VM в Yandex.Cloud
+- Установил Docker на новой VM
+- Создал директории под data volumes
+- Сконфигурировал compose-файла
+- Запустил контейнер с Gitlab CI
+- Сменил пароль для root и авторизовался
+- Выключил Sign-up restrictions
+- Создал группу homework
+- Создал проект example
+- Добавил remote к своему локальному infra-репозиторию для gitlab
+- Сконфигурировал .gitlab-ci.yml и запушил изменения
+- Получил token для раннера
+- Добавил и зарегистрировал раннер
+- Добавил Reddit в проект
+- Изменил .gitlab-ci.yml, добавил simpletest.rb, добавил библиотеку rack-test для тестирования в файл reddit/Gemfile, запушил изменения
+- Добавил окружение dev, запушил изменения
+- Добавил окружения Staging и Production, запушил изменения
+- Добавил директиву only, запушил измененяи с тэгом
+- Добавил динамические окружения, запушил изменения
+
 # Homework 11
 
 - Установил Vagrant
